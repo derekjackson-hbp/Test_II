@@ -1,0 +1,61 @@
+.valueLabels {
+	font-size:10pt;
+	color:black;
+}
+div.valueLabelLight {
+	opacity:0.5;
+	background-color: white;
+	border:none;
+	position:absolute;
+	text-align:center;
+}
+div.valueLabel {
+    position:absolute;
+    font-size: smaller;
+    border:none;
+    text-align:left;
+    margin-left:5px;
+    padding-left:5px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #e2e2e2;
+}
+
+/*.value0 { color:#5cc3ce; }
+.value1 { color:#cab301; }
+.value2 { color:#af102a; }
+.value3 { color:#e46f29; }
+.value4 { color:#134368; }
+.value5 { color:#57130b; }
+.value6 { color:#698637; }*/
+
+div.valueLabelTotal {
+	position:absolute;
+	border:none;
+	text-align:center;
+	font-weight:bold;
+}
+.tickLabel
+{
+    font-family: Arial, sans-serif;
+    font-size: 10.5pt;
+    color: #b0b0a6;
+}
+.xAxis .tickLabel
+{
+    font-size: 8.5pt;
+}
+.axisLabels
+{
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+    color: #5A5A4B;
+}
+.legendLabel
+{
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+    line-height: 1.1em;
+}
+
+

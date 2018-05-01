@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>                                                                  
+<head> 
+	<title>Fair Value of an Asset</title>
+	<link rel="stylesheet" href="css/hbp.widget.common.css">
+	<link rel="stylesheet" href="css/fair-value-of-an-asset.css">
+	<link rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.17.custom.css">
+    <link rel="stylesheet" href="css/plot.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.touch.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.slider.js"></script>
+	<script type="text/javascript" src="js/jquery.format/jquery.format-1.2.min.js"></script>
+    <script type="text/javascript" src="js/flot/excanvas.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.axislabels.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.stack.js"></script>
+	<script type="text/javascript" src="js/hbp.ui/slider.js"></script>
+	<script type="text/javascript" src="js/fair-value-of-an-asset.js"></script>
+</head>                                                                 
+<body>                                                                  
+	<div class="hidden">
+    Harvard Business Publishing strives to make all of its products compliant with accessibility guidelines. The online tool you are using is not screen-readable due its complex and non-linear nature. If you encounter accessibility issues please contact us at: http://hbsp.harvard.edu/list/contact-us. Thank you.
+    </div>                                                                  
+    <div id="logo" ></div>
+    <div id="copyright" >&copy; 2014 Harvard Business School Publishing. Harvard Business Publishing is an affiliate of Harvard Business School.</div>
+	<div id="container">
+		<div id="title">Fair Value of an Asset</div>
+            <div>
+                <div id="key">
+                    <div class="key-node">Asset selling price</div>
+                    <div class="key-node">Transportation costs</div>
+                    <div class="key-node">Transaction costs</div>
+                </div>
+            </div>
+        <div class="content" style="background:#fff; border-radius:6px;">
+            <div>
+                <div class="market-scale"></div>
+                <div class="market-container">
+                    <div class="market-tab" style="vertical-align: top;">
+                        <h1>Market A</h1>
+                        <div class="principal">Principal</div>
+                    </div>
+                    <div class="market-graph">
+                        <div class="market-grid"></div>
+                        <div class="bars" style="padding-bottom: 18px;">
+                            <div class="bar-container indicator">
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar" min="10" max="30" style="background:rgba(0, 104, 95, 0.75);"></div>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar" min="0" max="5" style="background:rgba(0, 65, 137, 0.75);"></div>
+                                <div class="bar" min="0" max="5" style="background:rgba(80, 145, 205, 0.75);"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="market-container">
+                    <div class="market-tab" style="vertical-align: bottom; margin-top: 8px;">
+                        <h1>Market B</h1>
+                        <div class="principal">Principal</div>
+                    </div>
+                    <div class="market-graph bottom">
+                        <div class="market-grid"></div>
+                        <div class="bars" style="padding-top: 36px;">
+                            <div class="bar-container">
+                                <div class="bar" min="0" max="5" style="background:rgba(0, 65, 137, 0.75);"></div>
+                                <div class="bar" min="0" max="5" style="background:rgba(80, 145, 205, 0.75);"></div>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar" min="10" max="30" style="background:rgba(0, 104, 95, 0.75);"></div>
+                            </div>
+                            <div class="bar-container indicator">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-btn" style="float:right; margin-right: 12px;">
+            Reset
+        </div>
+    </div>
+</body>
+</html>
